@@ -9,8 +9,8 @@ const Layout = () => {
   return (
     <>
 			<SidebarNav />
-			<Container className='py-3 pageHeight' >
-				<h3 className='text-capitalize'>{pageTitle}</h3>
+			<Container className='pt-4 pb-3 pageHeight' >
+				{pageTitle && <h3 className='text-capitalize border-bottom border-info pb-2'>{pageTitle.split("-").join(" ")}</h3>}
 				<Outlet />
 			</Container>
     </>

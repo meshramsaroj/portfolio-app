@@ -1,11 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './SidebarNav.css'
 import { useState } from 'react';
 
 function SidebarNav() {
+  const location = useLocation()
+  const activeNav = location.pathname
   const brandName = "Saroj Meshram"
   const navOptions = [
     {
@@ -15,7 +17,7 @@ function SidebarNav() {
     },
     {
       title: "About Me",
-      pathUrl: "/about",
+      pathUrl: "/about-me",
       id: "about"
     },
     {
@@ -25,7 +27,7 @@ function SidebarNav() {
     },
     {
       title: "Resume",
-      pathUrl: "/resume",
+      pathUrl: "/my-resume",
       id: "resume"
     },
     {
@@ -39,7 +41,7 @@ function SidebarNav() {
       id: "contact"
     }
   ]
-  const [activeOption, setActiveOption] = useState(navOptions[0].id)
+  const [activeOption, setActiveOption] = useState(activeNav)
 
   const handleActiveNavOption = (value)=> {
     setActiveOption(value)
@@ -57,7 +59,7 @@ function SidebarNav() {
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
             {navOptions.map((option)=> (
-              <Nav.Item key={option.id} className={`mx-2 text-uppercase ${activeOption==option.id && 'activeNav'}`} onClick={()=>handleActiveNavOption(option.id)}>
+              <Nav.Item key={option.id} className={`mx-2 text-uppercase ${activeOption==option.pathUrl && 'activeNav'}`} onClick={()=>handleActiveNavOption(option.pathUrl)}>
                 <Link to={option.pathUrl} className='text-decoration-none text-white'>{option.title}</Link>
               </Nav.Item>
             ))}

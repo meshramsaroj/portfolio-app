@@ -20,9 +20,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home/>} />
-            <Route path="about" element={<About />} />
+            <Route path="about-me" element={<About />} />
             <Route path="skills" element={<Skills />} />
-            <Route path="resume" element={<Resume />} />
+            <Route path="my-resume" element={<Resume />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NoPage />} />
