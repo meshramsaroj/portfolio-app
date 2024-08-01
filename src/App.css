@@ -1,0 +1,21 @@
+:root {
+  --brand: #2774ae;
+  --brand-text: #cccccc;
+  --bg-page-body: #e1eef8;
+}
+
+.navHeight {
+  height: 60px;
+}
+.brandTheme {
+  background: var(--brand);
+}
+
+.bg-page-body {
+  background: var(--bg-page-body);
+}
+
+.pageHeight{
+  height: calc(100vh - 60px);
+  margin-top: 60px;
+}
