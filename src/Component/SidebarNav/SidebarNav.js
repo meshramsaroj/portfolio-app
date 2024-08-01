@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, useLocation } from 'react-router-dom';
 import './SidebarNav.css'
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 
 function SidebarNav() {
   const location = useLocation()
@@ -47,7 +47,7 @@ function SidebarNav() {
     setActiveOption(value)
   }
   return (
-    <>
+    <Fragment key={activeNav}>
     <Navbar collapseOnSelect expand="lg" className="brandTheme navHeight" fixed='top'>
       <Container>
         <Navbar.Text>
@@ -59,7 +59,7 @@ function SidebarNav() {
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
             {navOptions.map((option)=> (
-              <Nav.Item key={option.id} className={`mx-2 text-uppercase ${activeOption==option.pathUrl && 'activeNav'}`} onClick={()=>handleActiveNavOption(option.pathUrl)}>
+              <Nav.Item key={option.pathUrl} className={`mx-2 text-uppercase ${activeOption==option.pathUrl && 'activeNav'}`} onClick={()=>handleActiveNavOption(option.pathUrl)}>
                 <Link to={option.pathUrl} className='text-decoration-none text-white'>{option.title}</Link>
               </Nav.Item>
             ))}
@@ -68,7 +68,7 @@ function SidebarNav() {
       </Container>
     </Navbar>
     
-    </>
+    </Fragment>
   );
 }
 

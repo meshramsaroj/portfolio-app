@@ -2,6 +2,7 @@
   --brand: #2774ae;
   --brand-text: #cccccc;
   --bg-page-body: #e1eef8;
+  --bg-info: #0dcaf0;
 }
 
 .navHeight {
@@ -37,7 +38,15 @@
   content: "";
   width: 2px;
   height: 100%;
-  background-color: #0dcaf0;
+  background-color: var(--bg-info);
   margin-left: -2%;
   position: absolute;
+}
+.card.projectCards {
+  height: 14rem;
+}
+.projectCards:hover {
+  border: 2px solid var(--brand);
+  /* opacity: 0.4; */
+  /* color: white; */
 }

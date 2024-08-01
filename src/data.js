@@ -77,19 +77,19 @@ export const profileData = {
                 {
                     course: "B E in Computer Science and Engineering",
                     grade: "8.55 CGPA",
-                    university: "G H Raisoni Collage of Engineering, Nagpur • Nagpur, Maharashtra",
+                    university: "G H Raisoni Collage of Engineering, Nagpur, Maharashtra",
                     duration: "2017-2020",
                 },
                 {
                     course: "Polytechnic in Computer Technologies",
                     grade: "73.42%",
-                    university: "Priyadarshini Polytechnic, Nagpur • Nagpur, Maharashtra",
+                    university: "Priyadarshini Polytechnic, Nagpur, Maharashtra",
                     duration: "2014-2027",
                 },
                 {
                     course: "SSC",
                     grade: "66.91%",
-                    university: "Z. P. High School Nildoh, Nagpur • Nagpur, Maharashtra",
+                    university: "Z. P. High School Nildoh, Nagpur, Maharashtra",
                     duration: "2012",
                 },
 
@@ -118,7 +118,7 @@ export const profileData = {
                     "Deployed changes using the Jinkins tool.",
                     "Use Gitlab"
                 ],
-                technologies: ["React", "Redux", "Bootstrap","Angular", "Javascript", "Typescript", "HTML", "CSS", "API Integration", "Jinkins"],
+                technologies: ["React", "Redux", "Bootstrap","Angular-14", "Javascript", "Typescript", "HTML", "CSS", "API Integration", "Jinkins"],
                 duration: "03/2022 - 12/2023"
             },
             {
@@ -131,12 +131,12 @@ export const profileData = {
                     "Develop new UI functionality for multithreaded user-facing applications running on touchscreen devices, using NextJs",
                     "Contributed in more than 3 company projects"
                 ],
-                technologies: ["React", "Redux", "Bootstrap","Angular", "Javascript", "Typescript", "HTML", "CSS", "API Integration"],
-                duration: "08/2020 - 02/2022"
+                technologies: ["React", "Redux","Bootstrap","Angular-7", "Javascript", "Typescript", "HTML", "CSS", "API Integration"],
+                duration: "06/2020 - 02/2022"
             },
             {
                 companyName: "Intechzia, Nagpur, Maharashtra",
-                Designation: "Intern",
+                designation: "Intern",
                 responsibility: [
                     "Learn from the basics of HTML5, CSS3",
                     "Design web template using HTML5,CSS3,and Bootstrap 4"
@@ -148,8 +148,66 @@ export const profileData = {
             }
 
         ]
-
-
-    }
+    },
+    projects: [
+                {
+                    projectTitle: "Artifi Rwalings (Mobile view)",
+                    url: "https://integrationdesigner.artifi.net/Designer?personalization=cHJvZHVjdENvZGU9TUNUSkBAJndlYnNpdGVpZD01NTQmdXNlcklkPTYxNCZpc0d1ZXN0PWZhbHNlJndlYkFwaWNsaWVudEtleT00NDllNjZmYy0zMTFmLTRhNjMtYTVmOC1kY2NmMDY2NGRiNTA",
+                    technologies: ["React", "Ant Design", "Typescript", "HTML", "CSS", "Javascript"],
+                    companyName: "MRR soft"
+                },
+                {
+                    projectTitle: "Orthopub",
+                    url: "https://orthopub.molecularconnections.com/orthopub/home",
+                    technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript"],
+                    companyName: "Molecular Connections Pvt Ltd"
+                },
+                {
+                    projectTitle: "Manuscript Insight",
+                    url: "https://app.manuscriptinsight.ai/cumulative-analytics",
+                    technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Google analytics", "High chart"],
+                    companyName: "Molecular Connections Pvt Ltd"
+                },
+             
+                {
+                    projectTitle: "WCP",
+                    url: "https://poc.molecularconnections.com/wcp-ui/login",
+                    technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript"],
+                    companyName: "Molecular Connections Pvt Ltd"
+                },
+                {
+                    projectTitle: "LMS System",
+                    url: "https://bloomstack.com/learn",
+                    technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Jinja", "Frappe"],
+                    companyName: ""
+                },
+                {
+                    projectTitle: "JH Audio",
+                    url: "https://jhaudio.com/",
+                    technologies: ["Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Angular"],
+                    companyName: "Bloomstack corp"
+                },
+          
+                {
+                    projectTitle: "Mi Management",
+                    url: "https://hdocket.molecularconnections.com/mi-management/#/auth/login",
+                    technologies: ["Angular-14", "Bootstrap", "HTML", "CSS"],
+                    companyName: "Molecular Connections Pvt Ltd"
+                },
+                {
+                    projectTitle: "Company website",
+                    url: "https://bloomstack.com/",
+                    technologies: ["HTML", "CSS", "Angular","Jinja", "Frappe"],
+                    companyName: ""
+                },
+           
+                {
+                    projectTitle: "",
+                    url: "",
+                    technologies: [],
+                    companyName: ""
+                }
+           
+    ]
     
 }

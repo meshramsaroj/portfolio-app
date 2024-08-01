@@ -45,7 +45,7 @@ const Home = () => {
           speed={50}
           repeat={2}
         />
-        <p className='mt-3'>Please click here to know more <Link to={"/about"}>About me</Link> and my <Link to={"/skills"}>Skills</Link></p>
+        <p className='mt-3'>Please click here to know more <Link to={"/about-me"}>About me</Link> and my <Link to={"/skills"}>Skills</Link></p>
        </section>
        <section className='text-center my-3'>
         <Button className='m-2' variant='info'>Hire Me</Button>
