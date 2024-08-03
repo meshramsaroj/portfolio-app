@@ -36,19 +36,19 @@ const Home = () => {
       <img src='https://lh3.googleusercontent.com/a/ACg8ocLnlVs6BqDTPyLzWpoyJg5OyEG_OZHaQADTLELvRkDq6SGe7lE=s360-c-no' alt='saroj-meshram' />
       </Col>
       <Col md={8} sm={12}>
-       <section className='text-center'>
+       <section className=''>
         <TypeAnimation
           sequence={[
-            "Hello, I am Saroj Meshram. \nA Front end developer.", 
+           "Hello, I'm Saroj Meshram, \na passionate web developer with 4.6 years of experience in crafting dynamic and user-friendly web applications.", 
           ]}
           style={{ whiteSpace: 'pre-line', fontSize: '3em' }}
           speed={50}
           repeat={2}
         />
-        <p className='mt-3'>Please click here to know more <Link to={"/about-me"}>About me</Link> and my <Link to={"/skills"}>Skills</Link></p>
+        <p className='mt-3 text-center'>Please click here to know more <Link to={"/about-me"}>About me</Link> and my <Link to={"/skills"}>Skills</Link></p>
        </section>
-       <section className='text-center my-3'>
-        <Button className='m-2' variant='info'>Hire Me</Button>
+       <section className='text-center mt-4 mb-3'>
+        <Link to={"/contact"}><Button className='m-2' variant='info'>Hire Me</Button></Link>
         <Button className='m-2' variant='info'>Download Resume</Button>
        </section>
        <section className='text-center'>

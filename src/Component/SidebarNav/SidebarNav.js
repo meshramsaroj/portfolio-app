@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, useLocation } from 'react-router-dom';
 import './SidebarNav.css'
-import { Fragment, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 
 function SidebarNav() {
   const location = useLocation()
@@ -46,6 +46,11 @@ function SidebarNav() {
   const handleActiveNavOption = (value)=> {
     setActiveOption(value)
   }
+
+  useEffect(()=>{
+    setActiveOption(activeNav)
+  },[activeNav])
+  
   return (
     <Fragment key={activeNav}>
     <Navbar collapseOnSelect expand="lg" className="brandTheme navHeight" fixed='top'>
