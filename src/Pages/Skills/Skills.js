@@ -6,11 +6,11 @@ const Skills = () => {
   return (
     <Row>
       {profileData.skills.map(skillData=>(
-        <Col md={4} sm={12} className='my-2'>
+        <Col md={4} sm={12} className='my-2' key={skillData.name}>
          <h4>{skillData.name}</h4>
           <div>
           {skillData.skillSet.map(skill=>(
-            <section className='my-2'>
+            <section className='my-2' key={skill.name}>
              <span className='text-capitalize'>{skill.name}</span>
              <ProgressBar now={skill.rate} label={`${skill.rate}%`} className='border' variant='info' />
             </section>

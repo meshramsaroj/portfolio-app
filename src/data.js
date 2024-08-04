@@ -151,62 +151,90 @@ export const profileData = {
     },
     projects: [
                 {
-                    projectTitle: "Artifi Rwalings (Mobile view)",
-                    url: "https://integrationdesigner.artifi.net/Designer?personalization=cHJvZHVjdENvZGU9TUNUSkBAJndlYnNpdGVpZD01NTQmdXNlcklkPTYxNCZpc0d1ZXN0PWZhbHNlJndlYkFwaWNsaWVudEtleT00NDllNjZmYy0zMTFmLTRhNjMtYTVmOC1kY2NmMDY2NGRiNTA",
-                    technologies: ["React", "Ant Design", "Typescript", "HTML", "CSS", "Javascript"],
-                    companyName: "MRR soft"
-                },
+                    name: "company_project",
+                    title: "Company Project",
+                    projectList: [
+                        {
+                            projectTitle: "Artifi Rwalings (Mobile view)",
+                            url: "https://integrationdesigner.artifi.net/Designer?personalization=cHJvZHVjdENvZGU9TUNUSkBAJndlYnNpdGVpZD01NTQmdXNlcklkPTYxNCZpc0d1ZXN0PWZhbHNlJndlYkFwaWNsaWVudEtleT00NDllNjZmYy0zMTFmLTRhNjMtYTVmOC1kY2NmMDY2NGRiNTA",
+                            technologies: ["React", "Ant Design", "Typescript", "HTML", "CSS", "Javascript"],
+                            companyName: "MRR soft"
+                        },
+                        {
+                            projectTitle: "Orthopub",
+                            url: "https://orthopub.molecularconnections.com/orthopub/home",
+                            technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript"],
+                            companyName: "Molecular Connections Pvt Ltd"
+                        },
+                        {
+                            projectTitle: "Manuscript Insight",
+                            url: "https://app.manuscriptinsight.ai/cumulative-analytics",
+                            technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Google analytics", "High chart"],
+                            companyName: "Molecular Connections Pvt Ltd"
+                        },
+                     
+                        {
+                            projectTitle: "WCP",
+                            url: "https://poc.molecularconnections.com/wcp-ui/login",
+                            technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript"],
+                            companyName: "Molecular Connections Pvt Ltd"
+                        },
+                        {
+                            projectTitle: "LMS System",
+                            url: "https://bloomstack.com/learn",
+                            technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Jinja", "Frappe"],
+                            companyName: ""
+                        },
+                        {
+                            projectTitle: "JH Audio",
+                            url: "https://jhaudio.com/",
+                            technologies: ["Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Angular"],
+                            companyName: "Bloomstack corp"
+                        },
+                  
+                        {
+                            projectTitle: "Mi Management",
+                            url: "https://hdocket.molecularconnections.com/mi-management/#/auth/login",
+                            technologies: ["Angular-14", "Bootstrap", "HTML", "CSS"],
+                            companyName: "Molecular Connections Pvt Ltd"
+                        },
+                        {
+                            projectTitle: "Company website",
+                            url: "https://bloomstack.com/",
+                            technologies: ["HTML", "CSS", "Angular","Jinja", "Frappe"],
+                            companyName: ""
+                        },
+                   
+                        {
+                            projectTitle: "",
+                            url: "",
+                            technologies: [],
+                            companyName: ""
+                        }
+                    ]
+                }, 
                 {
-                    projectTitle: "Orthopub",
-                    url: "https://orthopub.molecularconnections.com/orthopub/home",
-                    technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript"],
-                    companyName: "Molecular Connections Pvt Ltd"
-                },
-                {
-                    projectTitle: "Manuscript Insight",
-                    url: "https://app.manuscriptinsight.ai/cumulative-analytics",
-                    technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Google analytics", "High chart"],
-                    companyName: "Molecular Connections Pvt Ltd"
-                },
-             
-                {
-                    projectTitle: "WCP",
-                    url: "https://poc.molecularconnections.com/wcp-ui/login",
-                    technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript"],
-                    companyName: "Molecular Connections Pvt Ltd"
-                },
-                {
-                    projectTitle: "LMS System",
-                    url: "https://bloomstack.com/learn",
-                    technologies: ["React", "Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Jinja", "Frappe"],
-                    companyName: ""
-                },
-                {
-                    projectTitle: "JH Audio",
-                    url: "https://jhaudio.com/",
-                    technologies: ["Bootstrap", "Typescript", "HTML", "CSS", "Javascript", "Angular"],
-                    companyName: "Bloomstack corp"
-                },
-          
-                {
-                    projectTitle: "Mi Management",
-                    url: "https://hdocket.molecularconnections.com/mi-management/#/auth/login",
-                    technologies: ["Angular-14", "Bootstrap", "HTML", "CSS"],
-                    companyName: "Molecular Connections Pvt Ltd"
-                },
-                {
-                    projectTitle: "Company website",
-                    url: "https://bloomstack.com/",
-                    technologies: ["HTML", "CSS", "Angular","Jinja", "Frappe"],
-                    companyName: ""
-                },
-           
-                {
-                    projectTitle: "",
-                    url: "",
-                    technologies: [],
-                    companyName: ""
+                    name: "personal_projects",
+                    title: "Personal Projects",
+                    projectList: [
+                        {
+                            projectTitle: "Recipe App",
+                            url: "https://recipees-app.netlify.app/",
+                            technologies: ['React', "Rest API", "HTML", "CSS"],
+                            companyName: "Self"
+                        },
+                        {
+                            projectTitle: "Country Search App",
+                            url: "https://lotus-search-country-details-app.netlify.app/",
+                            technologies: ['React', "Rest API", "HTML", "CSS"],
+                            companyName: "Self",
+                            gitHubRepoUrl: ""
+                        }
+                        
+                    ]
+
                 }
+               
            
     ]
     

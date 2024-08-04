@@ -1,10 +1,20 @@
 :root {
   --brand: #2774ae;
-  --brand-text: #cccccc;
+  --brand-text: #ffffff;
   --bg-page-body: #e1eef8;
   --bg-info: #0dcaf0;
 }
-
+/* ---common style-start----- */
+button.btn-outline-info, button.btn-outline-info:first-child:active {
+  border-color: var(--brand);
+  color: var(--brand) ;
+}
+button.btn-info,button.btn-info:hover, button.btn-outline-info:hover, button.btn-info:first-child:active {
+  background-color: var(--brand);
+  color: var(--brand-text) ;
+  border-color: var(--brand) ;
+}
+/* ---common style-end----- */
 .navHeight {
   height: 60px;
 }
@@ -48,6 +58,51 @@
 }
 .projectCards:hover {
   border: 2px solid var(--brand);
-  /* opacity: 0.4; */
-  /* color: white; */
+}
+
+
+.mobileImgStyle img {
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid var(--brand);
+}
+
+@media screen and (max-width: 574px){
+  .mobileImgStyle {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+ 
+  .landingText {
+    text-align: center;
+  }
+  .navHeight .container {
+    padding: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .navHeight .navbar-text {
+    margin-left: 1rem;
+  }
+  .navHeight .navbar-toggler {
+    margin-right: 1rem;
+  }
+
+  .navHeight .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navHeight .navbar-collapse {
+    background: var(--brand);
+    opacity: 0.9;
+    padding: 10px;
+    height: 50vh;
+    transition: ease-in-out 1s;
+  }
+  .navHeight .navbar-collapse .nav-item {
+    padding: 10px;
+  }
+  
 }

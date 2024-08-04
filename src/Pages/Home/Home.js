@@ -33,10 +33,12 @@ const Home = () => {
   return (
     <Row>
       <Col md={4} sm={12}>
-      <img src='https://lh3.googleusercontent.com/a/ACg8ocLnlVs6BqDTPyLzWpoyJg5OyEG_OZHaQADTLELvRkDq6SGe7lE=s360-c-no' alt='saroj-meshram' />
+        <div className='mobileImgStyle'>
+          <img src='https://lh3.googleusercontent.com/a/ACg8ocLnlVs6BqDTPyLzWpoyJg5OyEG_OZHaQADTLELvRkDq6SGe7lE=s360-c-no' alt='saroj-meshram' width={"100%"} />
+        </div>
       </Col>
       <Col md={8} sm={12}>
-       <section className=''>
+       <section className='landingText'>
         <TypeAnimation
           sequence={[
            "Hello, I'm Saroj Meshram, \na passionate web developer with 4.6 years of experience in crafting dynamic and user-friendly web applications.", 
@@ -49,7 +51,10 @@ const Home = () => {
        </section>
        <section className='text-center mt-4 mb-3'>
         <Link to={"/contact"}><Button className='m-2' variant='info'>Hire Me</Button></Link>
-        <Button className='m-2' variant='info'>Download Resume</Button>
+        <Link to="/files/saroj_meshram_resume.pdf" target="_blank" download>
+          <Button className='m-2' variant='info'>Download Resume</Button>
+        </Link>
+
        </section>
        <section className='text-center'>
         {socialMediaData.map((data)=>(

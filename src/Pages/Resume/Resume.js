@@ -11,9 +11,9 @@ const Resume = () => {
       <Col md={6}>
       <h4 className='text-center mb-3'>{profileData.experience.title}</h4>
       {profileData.experience.experienceList.map((expDetail, index)=>(
-        <div className='py-2 beforeStyle'>
-        <FontAwesomeIcon icon={faBriefcase} className='beforeIcon' />
-        <Card key={index} >
+        <div className='py-2' key={index}>
+        {/* <FontAwesomeIcon icon={faBriefcase} className='beforeIcon' /> */}
+        <Card >
           <Card.Body>
             <h4>{expDetail.designation}</h4>
             <p>{expDetail.companyName} <span>({expDetail.duration})</span></p>
@@ -36,15 +36,15 @@ const Resume = () => {
       <Col md={6}>
         <h4 className='text-center mb-3'>{profileData.education.title}</h4>
         {profileData.education.collageList.map((collageData, index)=>(
-          <div className='py-2 beforeStyle'>
-          <FontAwesomeIcon icon={faBriefcase} className='beforeIcon' />
-          <Card key={index}>
-            <Card.Body>
-              <h4>{collageData.course}</h4>
-              <p>{collageData.university} <span>({collageData.duration})</span></p>
-              <p>Grade: {collageData.grade}</p>
-            </Card.Body>
-          </Card>
+          <div className='py-2 ' key={collageData.course.split(" ").join("_")+index}>
+            {/* <FontAwesomeIcon icon={faBriefcase} className='beforeIcon' />  */}
+            <Card>
+              <Card.Body>
+                <h4>{collageData.course}</h4>
+                <p>{collageData.university} <span>({collageData.duration})</span></p>
+                <p>Grade: {collageData.grade}</p>
+              </Card.Body>
+            </Card>
           </div>
         ))}
       </Col>
