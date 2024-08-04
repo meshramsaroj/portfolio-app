@@ -218,6 +218,13 @@ export const profileData = {
                     title: "Personal Projects",
                     projectList: [
                         {
+                            projectTitle: "Portfolio",
+                            url: "https://saroj-meshram-portfolio.netlify.app/",
+                            technologies: ['React', "Bootstrap", "HTML", "CSS", "EmailJs/browser"],
+                            companyName: "Self",
+                            gitHubRepoUrl: ""
+                        },
+                        {
                             projectTitle: "Recipe App",
                             url: "https://recipees-app.netlify.app/",
                             technologies: ['React', "Rest API", "HTML", "CSS"],
@@ -256,13 +263,6 @@ export const profileData = {
                             projectTitle: "Blogger template",
                             url: "https://saroj-blogger.netlify.app/",
                             technologies: ['React', "Rest API", "HTML", "CSS", "Animation"],
-                            companyName: "Self",
-                            gitHubRepoUrl: ""
-                        },
-                        {
-                            projectTitle: "Portfolio",
-                            url: "",
-                            technologies: ['React', "Bootstrap", "HTML", "CSS", "EmailJs/browser"],
                             companyName: "Self",
                             gitHubRepoUrl: ""
                         },
