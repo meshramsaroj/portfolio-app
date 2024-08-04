@@ -22,7 +22,6 @@ const Contact = () => {
   });
 
   const [btnLoading, setBtnLoading] = useState(false);
-  const [showPreviewModal, setShowPreviewModal] = useState(false);
   const [submissionMessage, setSubmissionMessage] = useState({
     message: "",
     flag: false, // failed or default
@@ -112,12 +111,6 @@ const Contact = () => {
         setBtnLoading(false);
       });
   };
-
-  const handlePreviewModal = (e)=> {
-    console.log("called=")
-    setShowPreviewModal(true)
-    e.preventDefault();
-  }
 
   return (
     <div>

@@ -5,7 +5,7 @@ import { Button, Modal } from "react-bootstrap";
 
 const PreviewModal = ({ previewData }) => {
   const [show, setShow] = useState(false);
-  const { fullName, emailId, message } = previewData;
+  const { fullName, message } = previewData;
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);

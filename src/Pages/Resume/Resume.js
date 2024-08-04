@@ -1,8 +1,8 @@
 import React from 'react'
 import { Row, Col, Card, Badge } from 'react-bootstrap'
 import { profileData } from '../../data'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 
 const Resume = () => {
   return (
