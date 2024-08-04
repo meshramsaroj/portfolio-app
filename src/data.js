@@ -229,6 +229,49 @@ export const profileData = {
                             technologies: ['React', "Rest API", "HTML", "CSS"],
                             companyName: "Self",
                             gitHubRepoUrl: ""
+                        },
+                        {
+                            projectTitle: "Image search",
+                            url: "https://image-searcher-app.netlify.app/",
+                            technologies: ['React', "Rest API", "HTML", "CSS"],
+                            companyName: "Self",
+                            gitHubRepoUrl: ""
+
+                        },
+                        {
+                            projectTitle: "Book CRUD app",
+                            url: "https://react-context-hook-book-app.netlify.app/",
+                            technologies: ['React', "Rest API", "HTML", "CSS"],
+                            companyName: "Self",
+                            gitHubRepoUrl: ""
+                        },
+                        {
+                            projectTitle: "Todo app",
+                            url: "https://saroj-todo-react-redux-app.netlify.app/",
+                            technologies: ['React', "Rest API", "HTML", "CSS"],
+                            companyName: "Self",
+                            gitHubRepoUrl: ""
+                        },
+                        {
+                            projectTitle: "Blogger template",
+                            url: "https://saroj-blogger.netlify.app/",
+                            technologies: ['React', "Rest API", "HTML", "CSS", "Animation"],
+                            companyName: "Self",
+                            gitHubRepoUrl: ""
+                        },
+                        {
+                            projectTitle: "Portfolio",
+                            url: "",
+                            technologies: ['React', "Bootstrap", "HTML", "CSS", "EmailJs/browser"],
+                            companyName: "Self",
+                            gitHubRepoUrl: ""
+                        },
+                        {
+                            projectTitle: "",
+                            url: "",
+                            technologies: [],
+                            companyName: "Self",
+                            gitHubRepoUrl: ""
                         }
                         
                     ]
