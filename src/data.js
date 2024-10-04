@@ -1,23 +1,61 @@
 export const profileData = {
+    personalDetails: {
+        name: 'Saroj Meshram',
+        contactInfo: 9284314534,
+        email: 'sarojmeshram1911@gmail.com',
+        alternateEmail: 'meshramsaroj24@gmail.com',
+        address: 'Hingna, Nagpur-440016',
+        designation: "Front End Developer (React/ Next)"
+    },
+    careerObjective : "A position of a React Developer in an organization that can utilize my skills, helping the organization to develop and improve its competitive position.",
     skills: [
+        {
+            name: 'Front end frameworks/ libraries',
+            skillSet:[
+                {
+                    name:"React",
+                    rate: 80,
+                    label: "Expert",
+                    yearOfExperience: 5
+                },
+                {
+                    name: 'Next',
+                    rate: 50,
+                    label: "Intermediate",
+                    yearOfExperience: 1
+                },
+                {
+                    name: 'Angular',
+                    rate: 60,
+                    label: "Intermediate",
+                    yearOfExperience: 1
+                },
+               
+            ]
+
+        },
         {
             name: 'Front end basics',
             skillSet: [
                 {
                     name: "HTML",
                     rate: 90,
+                    yearOfExperience: 5
                 },
                 {
                     name: "CSS",
                     rate: 90,
+                    yearOfExperience: 5
                 },
                 {
                     name: "Javascript",
                     rate: 70,
+                    yearOfExperience: 5
                 },
                 {
                     name: "TypeScript",
-                    rate: 60
+                    rate: 60,
+                    yearOfExperience: 2
                 }
 
             ]
@@ -27,39 +65,23 @@ export const profileData = {
             skillSet: [
                 {
                     name: "Bootstrap",
-                    rate: 90
+                    rate: 90,
+                    yearOfExperience: 4
+
                 },
                 {
                     name: "tailwind css",
                     rate: 50,
+                    yearOfExperience: 1
+
                 },
                 {
                     name: 'Ant design',
-                    rate: 70
+                    rate: 70,
+                    yearOfExperience: 1
+
                 }
             ]
-        },
-        {
-            name: 'Front end frameworks/ libraries',
-            skillSet:[
-                {
-                    name:"React",
-                    rate: 80,
-                    label: "Expert"
-                },
-                {
-                    name: 'Next',
-                    rate: 50,
-                    label: "beginner"
-                },
-                {
-                    name: 'Angular',
-                    rate: 60,
-                    label: "Intermediate"
-                },
-               
-            ]
-
         },
         {
             name: "Others",
@@ -67,6 +89,12 @@ export const profileData = {
                 {
                     name: "Git",
                     rate: 80,
+                    yearOfExperience: 5
+                },
+                {
+                    name: "MongoDB/ NoSql database",
+                    rate: 80,
+                    yearOfExperience: 1
                 }
             ]
         },
@@ -108,7 +136,8 @@ export const profileData = {
                     "Team player"
                 ],
                 technologies: ["React", "Redux", "NextJs", "Ant Design", "Javascript", "Typescript", "HTML", "CSS", "API Integration"],
-                duration: "12/2023 - Present"
+                duration: "12/2023 - Present",
+                yearOfExperience: '1 Year'
             },
             {
                 companyName: "Molecular Connections Pvt Ltd • Bangalore, Karnataka",
@@ -116,10 +145,14 @@ export const profileData = {
                 responsibility: [
                     "Designed UI using React & Redux, HTML, React-bootstrap CSS, Javascript",
                     "Deployed changes using the Jinkins tool.",
-                    "Use Gitlab"
+                    'Involved in design discussion',
+                    "Use Gitlab",
+
                 ],
                 technologies: ["React", "Redux", "Bootstrap","Angular-14", "Javascript", "Typescript", "HTML", "CSS", "API Integration", "Jinkins"],
-                duration: "03/2022 - 12/2023"
+                duration: "03/2022 - 12/2023",
+                yearOfExperience: "2 Years"
+
             },
             {
                 companyName: "Bloomstack Corp, Navi Mumbai, Maharashtra",
@@ -132,7 +165,9 @@ export const profileData = {
                     "Contributed in more than 3 company projects"
                 ],
                 technologies: ["React", "Redux","Bootstrap","Angular-7", "Javascript", "Typescript", "HTML", "CSS", "API Integration"],
-                duration: "06/2020 - 02/2022"
+                duration: "06/2020 - 02/2022",
+                yearOfExperience: '2 Years'
+
             },
             {
                 companyName: "Intechzia, Nagpur, Maharashtra",
@@ -144,7 +179,9 @@ export const profileData = {
                 technologies: [
                     "HTML", "CSS","Bootstrap", "Javascript"
                 ],
-                duration: "04/2018 - 07/2018"
+                duration: "04/2018 - 07/2018",
+                yearOfExperience: '3 months'
+
             }
 
         ]

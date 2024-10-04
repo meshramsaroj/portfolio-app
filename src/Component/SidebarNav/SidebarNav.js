@@ -26,14 +26,19 @@ function SidebarNav() {
       id: "skills"
     },
     {
-      title: "Resume",
-      pathUrl: "/my-resume",
+      title: "Experience",
+      pathUrl: "/experience-and-education",
       id: "resume"
     },
     {
       title: "Portfolio",
       pathUrl: "/portfolio",
       id: "portfolio"
+    },
+    {
+      title: "Resume",
+      pathUrl: "/resume",
+      id: "resume"
     },
     {
       title: "Contact",

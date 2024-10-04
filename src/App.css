@@ -14,6 +14,7 @@ button.btn-info,button.btn-info:hover, button.btn-outline-info:hover, button.btn
   color: var(--brand-text) ;
   border-color: var(--brand) ;
 }
+
 /* ---common style-end----- */
 .navHeight {
   height: 60px;
